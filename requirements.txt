@@ -25,6 +25,7 @@ exceptiongroup @ file:///C:/b/abs_25wqfvkf25/croot/exceptiongroup_1668714345637/
 executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
 fastjsonschema @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/croots/recipe/python-fastjsonschema_1661376484940/work
 fqdn==1.5.1
+h11==0.14.0
 idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
 importlib-metadata @ file:///C:/b/abs_20ndzb2j6v/croot/importlib-metadata_1678997085534/work
 ipykernel @ file:///C:/b/abs_07rkft_vaz/croot/ipykernel_1691121700587/work
@@ -59,6 +60,7 @@ nbformat @ file:///C:/b/abs_5a2nea1iu2/croot/nbformat_1694616866197/work
 nest-asyncio @ file:///C:/b/abs_3a_4jsjlqu/croot/nest-asyncio_1672387322800/work
 notebook @ file:///C:/b/abs_e2qn6c85jb/croot/notebook_1690985290943/work
 notebook_shim==0.2.3
+outcome==1.3.0.post0
 overrides==7.4.0
 packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
 pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
@@ -86,22 +88,28 @@ requests @ file:///C:/b/abs_316c2inijk/croot/requests_1690400295842/work
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.10.0
+selenium==4.15.1
 Send2Trash==1.8.2
 six @ file:///tmp/build/80754af9/six_1644875935023/work
-sniffio @ file:///C:/ci/sniffio_1614030527509/work
+sniffio==1.3.0
+sortedcontainers==2.4.0
 soupsieve @ file:///C:/b/abs_bbsvy9t4pl/croot/soupsieve_1696347611357/work
+-e git+https://github.com/loganschmitt14/Capstone_3.git@f61e95f538c3ebcdd3933378d874954f444f1c9a#egg=src
 stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
 terminado @ file:///C:/b/abs_25nakickad/croot/terminado_1671751845491/work
 tinycss2 @ file:///C:/b/abs_52w5vfuaax/croot/tinycss2_1668168823131/work
 tomli @ file:///C:/Windows/TEMP/abs_ac109f85-a7b3-4b4d-bcfd-52622eceddf0hy332ojo/croots/recipe/tomli_1657175513137/work
 tornado @ file:///C:/b/abs_0cbrstidzg/croot/tornado_1696937003724/work
 traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
+trio==0.23.0
+trio-websocket==0.11.1
 typing_extensions @ file:///C:/b/abs_213vg2cd1l/croot/typing_extensions_1690297804941/work
 urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
 webencodings==0.5.1
 websocket-client @ file:///C:/ci/websocket-client_1614804375980/work
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+wsproto==1.2.0
 y-py @ file:///C:/b/abs_b7f5go6r0j/croot/y-py_1683662173571/work
 ypy-websocket @ file:///C:/b/abs_4e65ywlnv8/croot/ypy-websocket_1684172103529/work
 zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
