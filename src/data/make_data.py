@@ -54,7 +54,7 @@ def make_data():
     user_ids_path = os.path.join(raw_data_path, 'user_ids.pkl')
     user_ids = load_user_ids(user_ids_path)
 
-    halfway_point = user_ids // 2
+    halfway_point = len(user_ids) // 2
     laptop_users = user_ids[:halfway_point]
     desktop_users = user_ids[halfway_point:]
     
@@ -76,7 +76,7 @@ def make_data():
     authenticated_driver = login(driver, username, password)
 
     # Scrape in batches
-    for user_id in user_ids:
+    for user_id in laptop_users:
         if user_id not in scraped_users:
             try:
                 # Scrape the user's read shelf
