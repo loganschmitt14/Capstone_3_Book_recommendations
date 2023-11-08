@@ -53,6 +53,10 @@ def make_data():
     # Load in User ID file
     user_ids_path = os.path.join(raw_data_path, 'user_ids.pkl')
     user_ids = load_user_ids(user_ids_path)
+
+    halfway_point = user_ids // 2
+    laptop_users = user_ids[:halfway_point]
+    desktop_users = user_ids[halfway_point:]
     
     # Load configuration for login
     config = ConfigParser()
