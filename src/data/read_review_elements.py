@@ -8,47 +8,16 @@ from selenium.common.exceptions import WebDriverException
 import numpy as np
 def get_review(review_element):
 
-    # Store cover URL if there is one
     try:
-        cover_url = review_element.find_element(By.XPATH, './/img').get_attribute('src')
-    except:
-        cover_url = np.nan
-
-    # Store title if there is one
-    try:
-        title_element = review_element.find_element(By.XPATH, ".//td[@class='field title']//a")
-        title = title_element.text.strip()
+        book_elements = review_element.find_elements(By.XPATH, ".//a[contains(@href, '/book/show/')]")
+        book_url = book_elements[0].get_attribute('href')
+        
     except Exception as e:
-        title = np.nan    
+        log.debug(f'An error occurred while extracting book URL: {e}')
+        book_url = np.nan
 
-    # Store author if there is one
-    try:
-        author_element = review_element.find_element(By.XPATH, ".//td[@class='field author']//a")
-        author = author_element.text.strip()
-    except:
-        author = np.nan
 
-    # Store ISBN if there is one
-    try:
-        isbn_element = review_element.find_element(By.XPATH, ".//td[@class='field isbn']//div[@class='value']")
-        isbn = isbn_element.text.strip()
-    except:
-        isbn = np.nan
 
-    # Store the ISBN13 if there is one
-    try:
-        isbn13_element = review_element.find_element(By.XPATH, ".//td[@class='field isbn13']//div[@class='value']")
-        isbn13 = isbn13_element.text.strip()
-    except:
-        isbn13 = np.nan
-
-    # Store the ASIN if there is one
-    try:
-        asin_element = review_element.find_element(By.XPATH, ".//td[@class='field asin']//div[@class='value']")
-        asin = asin_element.text.strip()
-    except:
-        asin = np.nan
-    
     # Store the average rating if there is one
     try:
         avg_rating_element = review_element.find_element(By.XPATH, ".//td[@class='field avg_rating']//div[@class='value']")
@@ -66,5 +35,6 @@ def get_review(review_element):
     except:
         rating = 0
     
-    review = {'cover_url': cover_url, 'title': title, 'author': author, 'isbn': isbn, 'isbn13': isbn13, 'asin': asin, 'avg_rating': avg_rating, 'user_rating': rating,}
+    review = {'book_url': book_url, 'avg_rating': avg_rating, 'user_rating': rating}
+    
     return review

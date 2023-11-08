@@ -17,7 +17,10 @@ def initialize_webdriver(chrome_tools_path):
         chrome_options.add_argument('--ignore-certificate-errors-spki-list')
         chrome_options.add_argument('--ignore-ssl-errors')
         chrome_options.add_argument('--ignore-certificate-errors')
+        chrome_options.add_argument("--allow-running-insecure-content")
+        
         chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        #chrome_options.add_argument('--headless=new')
         
         driver = webdriver.Chrome(service = service, options = chrome_options)
         log.info('Successfully launched webdriver')

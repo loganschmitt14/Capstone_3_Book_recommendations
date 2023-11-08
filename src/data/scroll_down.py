@@ -6,13 +6,17 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
+import time
 
 def scroll_to_bottom(authenticated_driver):
 
+    scroll_start = time.time()
+    
     while True:
         authenticated_driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')    
-    
+        
         try:
+            
             status_element = WebDriverWait(authenticated_driver, 10).until(
                         EC.visibility_of_element_located((By.ID, 'infiniteStatus')))
             
@@ -21,7 +25,9 @@ def scroll_to_bottom(authenticated_driver):
             loaded, total = map(int, re.findall(r'\d+', status_text))
     
             if loaded >= total:
-                log.info('All items loaded.')
+                scroll_stop = time.time()
+                scroll_time = scroll_stop - scroll_start
+                log.info(f"All items loaded: {time.strftime('%M:%S', time.gmtime(scroll_time))}")
                 break
 
         except TimeoutException:

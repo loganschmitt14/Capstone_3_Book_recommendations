@@ -4,6 +4,7 @@ import os
 import time
 from configparser import ConfigParser
 from pathlib import Path
+from tqdm import tqdm
 # Webscraping functions
 from src.data.scrape_shelf import scrape_user_read_shelf
 from src.data.setup_webdriver import initialize_webdriver
@@ -81,7 +82,7 @@ def make_data():
                 
                 save_dataframe(user_df, user_file)
 
-                log.info('Data for user {user_id} saved.')
+                log.info(f'Data for user {user_id} saved.')
 
                 # Update the scraped users list
                 with scraped_users_file.open('a') as file:

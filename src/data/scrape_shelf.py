@@ -10,7 +10,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import WebDriverException
 import polars as pl
 import numpy as np
-
+import time
+from tqdm import tqdm
 
 def scrape_user_read_shelf(authenticated_driver, user_id):
 
@@ -22,13 +23,19 @@ def scrape_user_read_shelf(authenticated_driver, user_id):
         authenticated_driver.get(user_shelf_url)
         adjust_shelf_settings(authenticated_driver)
         scroll_to_bottom(authenticated_driver)
-
-        review_elements = authenticated_driver.find_elements(By.CLASS_NAME, 'bookalike.review')
         
-        reviews = [get_review(review_element) for review_element in review_elements]
+        reviews_start = time.time()
+        review_elements = authenticated_driver.find_elements(By.CLASS_NAME, 'bookalike.review')
+
+
+        reviews = [get_review(review_element) for review_element in tqdm(review_elements)]
         
         reviews_df = pl.DataFrame(reviews).with_columns(pl.lit(user_id).alias('user_id'))
 
+        reviews_stop = time.time()
+        reviews_time = reviews_stop - reviews_start
+        
+        log.info(f"Compiled reviews. {time.strftime('%M:%S', time.gmtime(reviews_time))}")
     except Exception as e:
         log.debug(f'An error occurred while scraping user {user_id}: {e}')
         raise
