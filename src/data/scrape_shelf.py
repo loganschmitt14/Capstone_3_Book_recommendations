@@ -16,13 +16,13 @@ from tqdm import tqdm
 def scrape_user_read_shelf(authenticated_driver, user_id):
 
     base_url = 'https://www.goodreads.com/review/list/'
-    url_ext = '?utf8=%E2%9C%93&shelf=read&per_page=infinite'
+    url_ext = '?utf8=✓&shelf=read&sort=num_ratings&order=d&per_page=100'
     user_shelf_url = f'{base_url}{user_id}{url_ext}'
 
     try: 
         authenticated_driver.get(user_shelf_url)
         adjust_shelf_settings(authenticated_driver)
-        scroll_to_bottom(authenticated_driver)
+        #scroll_to_bottom(authenticated_driver)
         
         reviews_start = time.time()
         review_elements = authenticated_driver.find_elements(By.CLASS_NAME, 'bookalike.review')

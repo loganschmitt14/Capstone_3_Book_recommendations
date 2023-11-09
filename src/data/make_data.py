@@ -76,7 +76,7 @@ def make_data():
     authenticated_driver = login(driver, username, password)
 
     # Scrape in batches
-    for user_id in laptop_users:
+    for user_id in desktop_users:
         if user_id not in scraped_users:
             try:
                 # Scrape the user's read shelf

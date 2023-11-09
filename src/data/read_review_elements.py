@@ -20,16 +20,21 @@ def get_review(review_element):
 
     # Store the average rating if there is one
     try:
-        avg_rating_element = review_element.find_element(By.XPATH, ".//td[@class='field avg_rating']//div[@class='value']")
+        avg_rating_element = review_element.find_element(By.XPATH, 
+                                                         ".//td[@class='fieldavg_rating']//div[@class='value']")
         avg_rating = np.float64(avg_rating_element.text.strip())
     except:
         avg_rating = 0
 
     # Store the user rating if there is one
     try:
-        rating_container = review_element.find_element(By.XPATH, ".//td[@class='field rating']//div[@class='value']")
+        rating_container = review_element.find_element(By.XPATH,
+                                                       ".//td[@class='field rating']//div[@class='value']")
+        
         # Find all the span elements with class indicating a full star (p10)
-        full_stars = rating_container.find_elements(By.XPATH, ".//span[contains(@class, 'staticStar p10')]")
+        full_stars = rating_container.find_elements(By.XPATH, 
+                                                    ".//span[contains(@class, 'staticStar p10')]")
+        
         # The rating is the number of full star spans
         rating = len(full_stars)
     except:

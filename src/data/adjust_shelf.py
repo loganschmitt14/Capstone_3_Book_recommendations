@@ -14,9 +14,9 @@ def adjust_shelf_settings(authenticated_driver):
         settings_button.click()
         log.info('Opened shelf settings.')
 
-        select_checkbox_ids = ('avg_rating',  'rating', 'title')
+        select_checkbox_ids = ('avg_rating',  'rating', 'title', 'num_ratings')
 
-        deselect_checkbox_ids = ('asin', 'author', 'date_read', 'date_added', 'shelves','cover',
+        deselect_checkbox_ids = ('asin', 'author', 'date_read', 'date_added', 'shelves', 'cover',
                         'isbn', 'isbn13',)
 
         for checkbox in select_checkbox_ids:
