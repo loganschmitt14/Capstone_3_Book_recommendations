@@ -1,10 +1,10 @@
-book_url,avg_rating,user_rating,user_id
-https://www.goodreads.com/book/show/58690308-book-lovers,0,0,154524237
-https://www.goodreads.com/book/show/48890486-breath,0,4,154524237
-https://www.goodreads.com/book/show/59568612-the-6,0,0,154524237
-https://www.goodreads.com/book/show/39352771-tunnel-of-bones,0,0,154524237
-https://www.goodreads.com/book/show/52389660-decoding-boys,0,1,154524237
-https://www.goodreads.com/book/show/56255393-friendsgiving,0,0,154524237
-https://www.goodreads.com/book/show/59058740-test-book-of-the-illiach-new,0,0,154524237
-https://www.goodreads.com/book/show/63100830-protected-test,0,0,154524237
-https://www.goodreads.com/book/show/32762837-1,0,0,154524237
+title,author,avg_rating,user_rating,cover_url,user_id
+Book Lovers,"",4.16,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638867089l/58690308._SY75_.jpg,154524237
+Breath: The New Science of a Lost Art,"",4.15,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575339793l/48890486._SY75_.jpg,154524237
+"The 6:20 Man (The 6:20 Man, #1)","",4.15,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646415706l/59568612._SY75_.jpg,154524237
+"Tunnel of Bones (Cassidy Blake, #2)","",4.05,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547150323l/39352771._SX50_.jpg,154524237
+Decoding Boys: New Science Behind the Subtle Art of Raising Sons,"",3.89,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561661758l/52389660._SX50_SY75_.jpg,154524237
+Friendsgiving : Living Single Edition,"",4.8,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1607745462l/56255393._SY75_.jpg,154524237
+test book of the illiach new,"",4.83,0,https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png,154524237
+Protected test,"",3.75,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1666741728l/63100830._SX50_.jpg,154524237
+1,"",3.45,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477417109l/32762837._SX50_SY75_.jpg,154524237
