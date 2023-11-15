@@ -23,11 +23,8 @@ def create_database(data_path, database_path):
     # Add user IDs to Users table
     unique_user_ids = df['user_id'].unique()
 
-    for user_id in unique_user_ids:
-        try:
-            conn.execute('INSERT INTO Users (user_id) VALUES (?)', (user_id,))
-        except sqlite3.IntegrityError:
-            pass
+    user_id_tuples = [(int(user_id),) for user_id in unique_user_ids]
+    conn.executemany('INSERT INTO Users (user_id) VALUES (?)', user_id_tuples)
     conn.commit()
 
     # Add books to Books table
