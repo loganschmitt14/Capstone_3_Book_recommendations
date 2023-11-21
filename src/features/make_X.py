@@ -26,7 +26,7 @@ def make_X_data(database_path, X_path):
     
     filtered_ratings_df = ratings_df[ratings_df['user_id'].isin(filter_users)]
 
-    filtered_ratings_df.to_csv(X_path)
+    filtered_ratings_df.to_csv(X_path, index = False)
 
 
 if __name__ == '__main__':
