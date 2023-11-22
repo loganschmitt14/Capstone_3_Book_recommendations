@@ -15,7 +15,7 @@ def create_database(data_path, database_path):
 
     # Create tables for Users, Books, and Ratings
     conn.execute('''CREATE TABLE IF NOT EXISTS Users (user_id INTEGER PRIMARY KEY)''')
-    conn.execute('''CREATE TABLE IF NOT EXISTS Books (book_id INTEGER PRIMARY KEY, title TEXT, cover_url TEXT)''')
+    conn.execute('''CREATE TABLE IF NOT EXISTS Books (book_id INTEGER PRIMARY KEY, title TEXT, author TEXT, cover_url TEXT)''')
     conn.execute('''CREATE TABLE IF NOT EXISTS Ratings (user_id INTEGER, book_id INTEGER, user_rating INTEGER,
     avg_rating REAL, FOREIGN KEY(user_id) REFERENCES Users(user_id), 
     FOREIGN KEY(book_id) REFERENCES Books(book_id))''')
@@ -28,16 +28,16 @@ def create_database(data_path, database_path):
     conn.commit()
 
     # Add books to Books table
-    unique_books = df.drop_duplicates(subset=['title', 'cover_url'])
+    unique_books = df.drop_duplicates(subset=['title', 'author', 'cover_url'])
     for _, row in unique_books.iterrows():
         try:
-            conn.execute('INSERT INTO Books (title, cover_url) VALUES (?, ?)', (row['title'], row['cover_url']))
+            conn.execute('INSERT INTO Books (title, author, cover_url) VALUES (?, ?, ?)', (row['title'], row['author'], row['cover_url']))
         except sqlite3.IntegrityError:
             pass
     conn.commit()
 
-    book_id_map = pd.read_sql_query('SELECT book_id, title, cover_url FROM Books', conn)
-    df = df.merge(book_id_map, on=['title', 'cover_url'])
+    book_id_map = pd.read_sql_query('SELECT book_id, title, author, cover_url FROM Books', conn)
+    df = df.merge(book_id_map, on=['title', 'author', 'cover_url'])
     
     # Insert data into Ratings table
     for _, row in df.iterrows():

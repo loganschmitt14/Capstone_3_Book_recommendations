@@ -26,6 +26,13 @@ def get_review(review_element):
     except:
         avg_rating = np.float64(0)
 
+        
+     # Store author if there is one
+    try:
+        author_element = review_element.find_element(By.XPATH, ".//td[@class='field author']//a")
+        author = author_element.text.strip()
+    except:
+        author = np.nan
     # Store the user rating if there is one
     try:
         rating_container = review_element.find_element(By.XPATH,

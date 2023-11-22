@@ -26,7 +26,8 @@ if __name__ == '__main__':
                 os.pardir,
                 os.pardir,
                 'data',
-                'raw'
+                'raw',
+                'users'
                 )
             )
     output_file = os.path.abspath(

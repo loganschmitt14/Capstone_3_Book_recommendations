@@ -16,7 +16,7 @@ from tqdm import tqdm
 def scrape_user_read_shelf(authenticated_driver, user_id):
 
     base_url = 'https://www.goodreads.com/review/list/'
-    url_ext = '?utf8=✓&shelf=read&sort=num_ratings&order=d&per_page=100'
+    url_ext = '?utf8=✓&shelf=read&sort=avg_rating&order=d&per_page=100'
     user_shelf_url = f'{base_url}{user_id}{url_ext}'
 
     try: 
