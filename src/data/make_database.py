@@ -28,7 +28,7 @@ def create_database(data_path, database_path):
     conn.commit()
 
     # Add books to Books table
-    unique_books = df.drop_duplicates(subset=['title', 'author', 'cover_url'])
+    unique_books = df.drop_duplicates(subset=['title', 'author'])
     for _, row in unique_books.iterrows():
         try:
             conn.execute('INSERT INTO Books (title, author, cover_url) VALUES (?, ?, ?)', (row['title'], row['author'], row['cover_url']))
@@ -37,7 +37,7 @@ def create_database(data_path, database_path):
     conn.commit()
 
     book_id_map = pd.read_sql_query('SELECT book_id, title, author, cover_url FROM Books', conn)
-    df = df.merge(book_id_map, on=['title', 'author', 'cover_url'])
+    df = df.merge(book_id_map, on=['title', 'author'])
     
     # Insert data into Ratings table
     for _, row in df.iterrows():

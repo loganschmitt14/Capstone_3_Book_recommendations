@@ -78,7 +78,7 @@ def make_data():
                 # Scrape the user's read shelf
                 user_df = scrape_user_read_shelf(authenticated_driver, user_id)
 
-                user_file = os.path.join(raw_data_path, 'users', f'{user_id}.csv')
+                user_file = os.path.join(raw_data_path, 'users', f'{user_id}_.csv')
                 
                 save_dataframe(user_df, user_file)
 
