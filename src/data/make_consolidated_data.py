@@ -15,6 +15,15 @@ def combine_csvs(raw_data_path, output_file):
 
     # Concatenate all dataframes
     combined_df = pl.concat(dfs, how='vertical_relaxed')
+    
+    combined_df = (combined_df
+                       # Remove expressions in parentheses
+                       .with_columns(combined_df['title'].str.replace(r'\s*\([^)]*\)$', ''))
+                       # Remove duplicate reviews for users
+                       .sort(['user_rating'], descending = True).unique(subset=['title', 'author', 'user_id'])
+                      
+                      )
+    
 
     # Save the combined dataframe to a CSV
     combined_df.write_csv(output_file)

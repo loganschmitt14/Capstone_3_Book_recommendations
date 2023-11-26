@@ -1,0 +1,101 @@
+title,author,avg_rating,user_rating,cover_url,user_id
+"Harry Potter and the Philosopher’s Stone (Harry Potter, #1)","Rowling, J.K.",4.47,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170803558l/72193._SX50_SY75_.jpg,51221960
+"The Hunger Games (The Hunger Games, #1)","Collins, Suzanne",4.33,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052._SX50_.jpg,51221960
+"Twilight (The Twilight Saga, #1)","Meyer, Stephenie",3.64,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700522826l/41865._SY75_.jpg,51221960
+To Kill a Mockingbird,"Lee, Harper",4.26,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375733032l/18289406._SY75_.jpg,51221960
+Il grande Gatsby,"Fitzgerald, F. Scott",3.93,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370277195l/17566526._SY75_.jpg,51221960
+The Fault in Our Stars,"Green, John",4.14,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386062044l/19140487._SX50_.jpg,51221960
+Pride and Prejudice,"Austen, Jane",4.28,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320399351l/1885._SY75_.jpg,51221960
+"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)","Rowling, J.K.",4.58,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630547330l/5._SY75_.jpg,51221960
+"Divergent (Divergent, #1)","Roth, Veronica",4.15,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618526890l/13335037._SY75_.jpg,51221960
+"Harry Potter and the Chamber of Secrets (Harry Potter, #2)","Rowling, J.K.",4.43,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474169725l/15881._SY75_.jpg,51221960
+Animal Farm,"Orwell, George",3.98,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY75_.jpg,51221960
+Diario de Anne Frank,"Frank, Anne",4.19,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1470625820l/31369904._SY75_.jpg,51221960
+"Harry Potter and the Deathly Hallows (Harry Potter, #7)","Rowling, J.K.",4.62,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663805647l/136251._SY75_.jpg,51221960
+"Harry Potter and the Goblet of Fire (Harry Potter, #4)","Rowling, J.K.",4.56,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554006152l/6._SX50_.jpg,51221960
+The Catcher in the Rye,"Salinger, J.D.",3.8,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107._SY75_.jpg,51221960
+"Catching Fire (The Hunger Games, #2)","Collins, Suzanne",4.32,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028._SY75_.jpg,51221960
+"Harry Potter and the Order of the Phoenix (Harry Potter, #5)","Rowling, J.K.",4.5,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546910265l/2._SY75_.jpg,51221960
+Harry Potter and the Half-Blood Prince (Harry Potter #6),"Rowling, J.K.",4.58,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX50_.jpg,51221960
+"The Girl with the Dragon Tattoo (Millennium, #1)","Larsson, Stieg",4.16,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1684638853l/2429135._SX50_.jpg,51221960
+"Mockingjay (The Hunger Games, #3)","Collins, Suzanne",4.08,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722918l/7260188._SY75_.jpg,51221960
+Gone Girl,"Flynn, Gillian",4.13,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554086139l/19288043._SY75_.jpg,51221960
+The Alchemist,"Coelho, Paulo",3.9,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1654371463l/18144590._SY75_.jpg,51221960
+The Girl on the Train,"Hawkins, Paula",3.96,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1574805682l/22557272._SX50_.jpg,51221960
+Lord of the Flies,"Golding, William",3.69,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327869409l/7624._SY75_.jpg,51221960
+Where the Crawdads Sing,"Owens, Delia",4.4,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582135294l/36809135._SY75_.jpg,51221960
+"The Lion, the Witch and the Wardrobe (Chronicles of Narnia, #1)","Lewis, C.S.",4.23,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353029077l/100915._SY75_.jpg,51221960
+The Help,"Stockett, Kathryn",4.47,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1622355533l/4667024._SY75_.jpg,51221960
+Romeo and Juliet,"Shakespeare, William",3.74,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1418954968l/23844174._SY75_.jpg,51221960
+"Fifty Shades of Grey (Fifty Shades, #1)","James, E.L.",3.66,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385207843l/10818853._SX50_.jpg,51221960
+Juego de Tronos,"Martin, George R.R.",4.44,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403907423l/22596281._SY75_.jpg,51221960
+"The Giver (The Giver, #1)","Lowry, Lois",4.12,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636._SY75_.jpg,51221960
+Fahrenheit 451,"Bradbury, Ray",3.97,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383718290l/13079982._SY75_.jpg,51221960
+The Lovely Bones,"Sebold, Alice",3.85,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441657006l/24343720._SY75_.jpg,51221960
+Little Women,"Alcott, Louisa May",4.14,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562690475l/1934._SY75_.jpg,51221960
+Jane Eyre,"Brontë, Charlotte",4.15,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1557343311l/10210._SY75_.jpg,51221960
+The Little Prince,"Saint-Exupéry, Antoine de",4.32,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367545443l/157993._SY75_.jpg,51221960
+Memoirs of a Geisha,"Golden, Arthur",4.15,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409595968l/929._SY75_.jpg,51221960
+"A Court of Thorns and Roses (A Court of Thorns and Roses, #1)","Maas, Sarah J.",4.2,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620324329l/50659467._SY75_.jpg,51221960
+"New Moon (The Twilight Saga, #2)","Meyer, Stephenie",3.59,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630592760l/49041._SX50_.jpg,51221960
+"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)","Adams, Douglas",4.23,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1531891848l/11._SY75_.jpg,51221960
+Charlotte's Web,"White, E.B.",4.2,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628267712l/24178._SY75_.jpg,51221960
+"Eclipse (The Twilight Saga, #3)","Meyer, Stephenie",3.72,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361038355l/428263._SY75_.jpg,51221960
+Wuthering Heights,"Brontë, Emily",3.89,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388212715l/6185._SY75_.jpg,51221960
+The Perks of Being a Wallflower,"Chbosky, Stephen",4.23,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650033115l/22628._SX50_.jpg,51221960
+"Eat, Pray, Love","Gilbert, Elizabeth",3.62,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1503066414l/19501._SY75_.jpg,51221960
+"Breaking Dawn (The Twilight Saga, #4)","Meyer, Stephenie",3.73,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361039438l/1162543._SY75_.jpg,51221960
+"The Notebook (The Notebook, #1)","Sparks, Nicholas",4.14,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1483183484l/33648131._SY75_.jpg,51221960
+Life of Pi,"Martel, Yann",3.93,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631251689l/4214._SY75_.jpg,51221960
+Water for Elephants,"Gruen, Sara",4.11,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667708346l/43641._SY75_.jpg,51221960
+"Me Before You (Me Before You, #1)","Moyes, Jojo",4.26,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665087720l/17347634._SY75_.jpg,51221960
+Looking for Alaska,"Green, John",3.97,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1652042180l/99561._SY75_.jpg,51221960
+"The Selection (The Selection, #1)","Cass, Kiera",4.08,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322103400l/10507293._SY75_.jpg,51221960
+"The Maze Runner (The Maze Runner, #1)","Dashner, James",4.05,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1375596592l/6186357._SY75_.jpg,51221960
+"Insurgent (Divergent, #2)","Roth, Veronica",3.98,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618525340l/11735983._SY75_.jpg,51221960
+The Picture of Dorian Gray,"Wilde, Oscar",4.12,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546103428l/5297._SY75_.jpg,51221960
+"The Shining (The Shining, #1)","King, Stephen",4.26,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353277730l/11588._SY75_.jpg,51221960
+Where the Sidewalk Ends,"Silverstein, Shel",4.33,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168052448l/30119._SX50_.jpg,51221960
+Paper Towns,"Green, John",3.72,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1349013610l/6442769._SX50_.jpg,51221960
+And Then There Were None,"Christie, Agatha",4.28,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1638425885l/16299._SY75_.jpg,51221960
+"Dune (Dune, #1)","Herbert, Frank",4.26,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555447414l/44767458._SY75_.jpg,51221960
+The Adventures of Huckleberry Finn,"Twain, Mark",3.83,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546096879l/2956._SX50_.jpg,51221960
+"Miss Peregrine et les enfants particuliers (Miss Peregrine et les enfants particuliers, #1)","Riggs, Ransom",3.92,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1341604495l/15723988._SY75_.jpg,51221960
+Dracula,"Stoker, Bram",4.01,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387151694l/17245._SY75_.jpg,51221960
+Стив Джобс,"Isaacson, Walter",4.16,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420904338l/15761505._SX50_.jpg,51221960
+"Throne of Glass (Throne of Glass, #1)","Maas, Sarah J.",4.19,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1495278054l/7896527._SY75_.jpg,51221960
+My Sister's Keeper,"Picoult, Jodi",4.1,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369504683l/10917._SY75_.jpg,51221960
+Gone with the Wind,"Mitchell, Margaret",4.31,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551144577l/18405._SY75_.jpg,51221960
+"A Wrinkle in Time (Time Quintet, #1)","L'Engle, Madeleine",3.98,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507963312l/33574273._SX50_.jpg,51221960
+"Holes (Holes, #1)","Sachar, Louis",3.99,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1618269830l/38709._SX50_.jpg,51221960
+Sense and Sensibility,"Austen, Jane",4.08,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1397245675l/14935._SY75_.jpg,51221960
+The Secret Garden,"Burnett, Frances Hodgson",4.15,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327873635l/2998._SY75_.jpg,51221960
+Ready Player One,"Cline, Ernest",4.23,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402776553l/22469599._SY75_.jpg,51221960
+We Were Liars,"Lockhart, E.",3.68,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402749479l/16143347._SY75_.jpg,51221960
+The Giving Tree,"Silverstein, Shel",4.38,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465321504l/30368318._SX50_.jpg,51221960
+It,"King, Stephen",4.25,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334416842l/830502._SY75_.jpg,51221960
+"Wonder (Wonder, #1)","Palacio, R.J.",4.38,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1545695751l/11387515._SY75_.jpg,51221960
+The Stranger,"Camus, Albert",4.02,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590930002l/49552._SY75_.jpg,51221960
+"Outlander (Outlander, #1)","Gabaldon, Diana",4.26,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1659086907l/10964._SY75_.jpg,51221960
+The Host,"Meyer, Stephenie",3.86,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1356632435l/17168416._SY75_.jpg,51221960
+Sharp Objects,"Flynn, Gillian",4.01,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475695315l/18045891._SY75_.jpg,51221960
+Where the Wild Things Are,"Sendak, Maurice",4.24,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384434560l/19543._SX50_.jpg,51221960
+Thirteen Reasons Why,"Asher, Jay",3.85,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555345043l/29844228._SY75_.jpg,51221960
+"Anne of Green Gables (Anne of Green Gables, #1)","Montgomery, L.M.",4.3,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615094578l/8127._SY75_.jpg,51221960
+"Jurassic Park (Jurassic Park, #1)","Crichton, Michael",4.09,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529604411l/40604658._SY75_.jpg,51221960
+Lessons in Chemistry,"Garmus, Bonnie",4.31,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634748496l/58065033._SY75_.jpg,51221960
+"Unbroken: A World War II Story of Survival, Resilience and Redemption","Hillenbrand, Laura",4.38,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327861115l/8664353._SY75_.jpg,51221960
+The Adventures of Tom Sawyer,"Twain, Mark",3.92,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1404811979l/24583._SY75_.jpg,51221960
+"The Girl Who Played with Fire (Millennium, #2)","Larsson, Stieg",4.25,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351778881l/5060378._SX50_.jpg,51221960
+Matilda,"Dahl, Roald",4.33,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388793265l/39988._SY75_.jpg,51221960
+"Cinder (The Lunar Chronicles, #1)","Meyer, Marissa",4.13,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507557775l/36381037._SY75_.jpg,51221960
+The Princess Bride,"Goldman, William",4.27,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327903636l/21787._SY75_.jpg,51221960
+"Fifty Shades Darker (Fifty Shades, #2)","James, E.L.",3.83,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631260114l/11857408._SY75_.jpg,51221960
+Resta anche domani,"Forman, Gayle",3.92,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1408649056l/23006728._SY75_.jpg,51221960
+Macbeth,"Shakespeare, William",3.9,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559682456l/46147563._SY75_.jpg,51221960
+Emma,"Austen, Jane",4.04,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1373627931l/6969._SY75_.jpg,51221960
+"The Hate U Give (The Hate U Give, #1)","Thomas, Angie",4.48,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476284759l/32075671._SY75_.jpg,51221960
+"To All The Boys I've Loved Before (To All The Boys I've Loved Before, #1)","Han, Jenny",4.05,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372089832l/18049085._SY75_.jpg,51221960
+"Fifty Shades Freed (Fifty Shades, #3)","James, E.L.",3.84,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1336418837l/13536860._SY75_.jpg,51221960
+"Charlie and the Chocolate Factory (Charlie Bucket, #1)","Dahl, Roald",4.16,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309211401l/6310._SY75_.jpg,51221960
+Catch-22,"Heller, Joseph",3.99,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317l/168668._SY75_.jpg,51221960

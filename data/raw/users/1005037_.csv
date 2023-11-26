@@ -1,0 +1,101 @@
+title,author,avg_rating,user_rating,cover_url,user_id
+"Harry Potter and the Philosopher’s Stone (Harry Potter, #1)","Rowling, J.K.",4.47,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170803558l/72193._SX50_SY75_.jpg,1005037
+"The Hunger Games (The Hunger Games, #1)","Collins, Suzanne",4.33,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722975l/2767052._SX50_.jpg,1005037
+The Great Gatsby,"Fitzgerald, F. Scott",3.93,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328912789l/71135._SX50_.jpg,1005037
+1984,"Orwell, George",4.19,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502314156l/5477._SY75_.jpg,1005037
+Pride and Prejudice,"Austen, Jane",4.28,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1487841905l/84979._SY75_.jpg,1005037
+"Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)","Rowling, J.K.",4.58,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562747693l/464164._SY75_.jpg,1005037
+"Harry Potter and the Chamber of Secrets (Harry Potter, #2)","Rowling, J.K.",4.43,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1553352368l/224912._SY75_.jpg,1005037
+Animal Farm,"Orwell, George",3.98,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331660581l/529943._SY75_.jpg,1005037
+Anne Frank: The Diary of a Young Girl,"Frank, Anne",4.19,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559574883l/179096._SY75_.jpg,1005037
+"Harry Potter and the Deathly Hallows (Harry Potter, #7)","Rowling, J.K.",4.62,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1663805647l/136251._SY75_.jpg,1005037
+"Harry Potter and the Goblet of Fire (Harry Potter, #4)","Rowling, J.K.",4.56,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328976699l/864890._SY75_.jpg,1005037
+The Catcher in the Rye,"Salinger, J.D.",3.8,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107._SY75_.jpg,1005037
+"Catching Fire (The Hunger Games, #2)","Collins, Suzanne",4.32,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586722941l/6148028._SY75_.jpg,1005037
+"Harry Potter and the Order of the Phoenix (Harry Potter, #5)","Rowling, J.K.",4.5,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347506825l/110932._SY75_.jpg,1005037
+"Harry Potter and the Order of the Phoenix (Harry Potter, #5)","Rowling, J.K.",4.5,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374679068l/862631._SY75_.jpg,1005037
+"Harry Potter and the Half-Blood Prince (Harry Potter, #6)","Rowling, J.K.",4.58,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1374679091l/840699._SY75_.jpg,1005037
+"Mockingjay (The Hunger Games, #3)","Collins, Suzanne",4.08,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661028164l/8684868._SY75_.jpg,1005037
+Lord of the Flies,"Golding, William",3.69,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327900652l/1167532._SY75_.jpg,1005037
+"The Fellowship of the Ring (The Lord of the Rings, #1)","Tolkien, J.R.R.",4.39,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1210731859l/273438._SY75_.jpg,1005037
+"The Lion, the Witch and the Wardrobe","Lewis, C.S.",4.23,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1208534686l/1045149._SY75_.jpg,1005037
+Romeo and Juliet,"Shakespeare, William",3.74,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391136003l/577537._SY75_.jpg,1005037
+Romeo and Juliet,"Shakespeare, William",3.74,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413685740l/5867163._SY75_.jpg,1005037
+Of Mice and Men,"Steinbeck, John",3.88,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1273194402l/7612._SY75_.jpg,1005037
+Little Women,"Alcott, Louisa May",4.14,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309209153l/341288._SY75_.jpg,1005037
+Jane Eyre,"Brontë, Charlotte",4.15,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388260071l/76792._SY75_.jpg,1005037
+Le Petit Prince,"Saint-Exupéry, Antoine de",4.32,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1324199942l/70720._SX50_.jpg,1005037
+The Little Prince,"Saint-Exupéry, Antoine de",4.32,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1671346834l/71058._SY75_.jpg,1005037
+Brave New World,"Huxley, Aldous",3.99,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1369795542l/1430426._SY75_.jpg,1005037
+"The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)","Adams, Douglas",4.23,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559984522l/17707._SY75_.jpg,1005037
+Charlotte's Web,"White, E.B.",4.2,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1628267712l/24178._SY75_.jpg,1005037
+Frankenstein,"Shelley, Mary",3.86,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1665008650l/18490._SY75_.jpg,1005037
+The Golden Compass,"Pullman, Philip",4.02,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1536203950l/394363._SY75_.jpg,1005037
+Where the Sidewalk Ends,"Silverstein, Shel",4.33,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1168052448l/30119._SX50_.jpg,1005037
+"Dune (Dune Chronicles, #1)","Herbert, Frank",4.26,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1592774451l/1685995._SY75_.jpg,1005037
+"Dune (Dune Chronicles, #1)","Herbert, Frank",4.26,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1367006701l/3333186._SY75_.jpg,1005037
+Adventures of Huckleberry Finn,"Twain, Mark",3.83,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172607064l/197648._SX50_.jpg,1005037
+Dracula,"Stoker, Bram",4.01,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395027087l/2330339._SY75_.jpg,1005037
+"A Wrinkle in Time (Time Quintet, #1)","L'Engle, Madeleine",3.98,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473529104l/1309367._SY75_.jpg,1005037
+The Secret Garden,"Burnett, Frances Hodgson",4.15,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1430254918l/210297._SY75_.jpg,1005037
+The Odyssey,Homer,3.8,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390173285l/1381._SY75_.jpg,1005037
+Where the Wild Things Are,"Sendak, Maurice",4.24,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1384434560l/19543._SX50_.jpg,1005037
+"Anne of Green Gables (Anne of Green Gables, #1)","Montgomery, L.M.",4.3,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486838076l/814060._SY75_.jpg,1005037
+"Jurassic Park (Jurassic Park, #1)","Crichton, Michael",4.09,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1411242939l/3338617._SY75_.jpg,1005037
+"The Two Towers (The Lord of the Rings, #2)","Tolkien, J.R.R.",4.48,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383100090l/3306187._SY75_.jpg,1005037
+A Tale of Two Cities,"Dickens, Charles",3.87,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344922523l/1953._SY75_.jpg,1005037
+Hamlet,"Shakespeare, William",4.02,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330726663l/5866787._SY75_.jpg,1005037
+"Shadow and Bone (The Shadow and Bone Trilogy, #1)","Bardugo, Leigh",3.94,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339533695l/10194157._SX50_.jpg,1005037
+The Princess Bride,"Goldman, William",4.27,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388622386l/77115._SY75_.jpg,1005037
+"The Return of the King (The Lord of the Rings, #3)","Tolkien, J.R.R.",4.56,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586206867l/222912._SY75_.jpg,1005037
+A Christmas Carol,"Dickens, Charles",4.07,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486690240l/2346914._SX50_.jpg,1005037
+Great Expectations,"Dickens, Charles",3.79,1,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1631687432l/2623._SY75_.jpg,1005037
+Good Omens,"Pratchett, Terry",4.25,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1340685234l/474059._SY75_.jpg,1005037
+Coraline,"Gaiman, Neil",4.11,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1202156028l/17064._SX50_.jpg,1005037
+Never Let Me Go,"Ishiguro, Kazuo",3.84,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353048590l/6334._SY75_.jpg,1005037
+Flowers for Algernon,"Keyes, Daniel",4.2,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689071681l/18373._SY75_.jpg,1005037
+"Interview With The Vampire (The Vampire Chronicles, #1)","Rice, Anne",4.02,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1377074791l/9486384._SY75_.jpg,1005037
+Pet Sematary,"King, Stephen",4.05,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1656652658l/832794._SY75_.jpg,1005037
+Alice's Adventures in Wonderland & Through the Looking-Glass,"Carroll, Lewis",4.06,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486579897l/1503618._SY75_.jpg,1005037
+Watchmen,"Moore, Alan",4.38,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442239711l/472331._SY75_.jpg,1005037
+Moby-Dick,"Melville, Herman",3.54,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1215455542l/2204572._SY75_.jpg,1005037
+"The Magician’s Nephew (The Chronicles of Narnia, #6)","Lewis, C.S.",4.05,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370692052l/317519._SY75_.jpg,1005037
+"Foundation (Foundation, #1)","Asimov, Isaac",4.17,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431073586l/332040._SY75_.jpg,1005037
+"A Discovery of Witches (All Souls Trilogy, #1)","Harkness, Deborah",4.02,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328409703l/9774199._SY75_.jpg,1005037
+"Watership Down (Watership Down, #1)","Adams, Richard",4.08,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1405136931l/76620._SY75_.jpg,1005037
+"The Voyage of the “Dawn Treader” (The Chronicles of Narnia, #3)","Lewis, C.S.",4.09,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370691962l/18132._SY75_.jpg,1005037
+"Graceling (Graceling Realm, #1)","Cashore, Kristin",4.07,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1331548394l/3236307._SY75_.jpg,1005037
+The Wizard of Oz,"Baum, L. Frank",4.0,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311710093l/1014204._SX50_.jpg,1005037
+Do Androids Dream of Electric Sheep?,"Dick, Philip K.",4.09,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383407615l/516036._SY75_.jpg,1005037
+"The Subtle Knife (His Dark Materials, #2)","Pullman, Philip",4.15,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468907611l/77473._SY75_.jpg,1005037
+"Prince Caspian (The Chronicles of Narnia, #2)","Lewis, C.S.",3.98,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370691931l/317501._SY75_.jpg,1005037
+The Godfather,"Puzo, Mario",4.38,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548843267l/239795._SY75_.jpg,1005037
+The Witches,"Dahl, Roald",4.17,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1364447695l/386244._SY75_.jpg,1005037
+The Witches,"Dahl, Roald",4.17,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1181005542l/1102743._SY75_.jpg,1005037
+Oliver Twist,"Dickens, Charles",3.88,2,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320427515l/386258._SY75_.jpg,1005037
+"Alice's Adventures in Wonderland (Alice's Adventures in Wonderland, #1)","Carroll, Lewis",4.0,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1683467449l/83345._SX50_.jpg,1005037
+Goodnight Moon,"Brown, Margaret Wise",4.3,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347260283l/1099989._SX50_.jpg,1005037
+"Storm Front (The Dresden Files, #1)","Butcher, Jim",3.98,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572991273l/47212._SY75_.jpg,1005037
+"The Horse and His Boy (The Chronicles of Narnia, #5)","Lewis, C.S.",3.91,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533725604l/317518._SY75_.jpg,1005037
+Peter Pan,"Barrie, J.M.",4.04,0,https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png,1005037
+"Howl’s Moving Castle (Howl’s Moving Castle, #1)","Jones, Diana Wynne",4.29,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630502935l/6294._SX50_.jpg,1005037
+Island of the Blue Dolphins,"O'Dell, Scott",3.86,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1578603725l/1741322._SX50_.jpg,1005037
+"Saga, Volume 1","Vaughan, Brian K.",4.17,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486028947l/15704307._SY75_.jpg,1005037
+"A Wizard of Earthsea (Earthsea Cycle, #1)","Le Guin, Ursula K.",4.01,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1170537240l/59920._SY75_.jpg,1005037
+The God of Small Things,"Roy, Arundhati",3.95,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590282886l/9777._SY75_.jpg,1005037
+"The Silver Chair (The Chronicles of Narnia, #4)","Lewis, C.S.",3.95,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1486692683l/317517._SY75_.jpg,1005037
+The Silmarillion: The Epic History of the Elves in The Lord of the Rings,"Tolkien, J.R.R.",4.0,3,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1210732062l/3306190._SY75_.jpg,1005037
+The Phantom Tollbooth,"Juster, Norton",4.19,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1558858485l/378._SX50_.jpg,1005037
+"The Restaurant at the End of the Universe (The Hitchhiker's Guide to the Galaxy, #2)","Adams, Douglas",4.21,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361556590l/68348._SY75_.jpg,1005037
+"The Last Battle (The Chronicles of Narnia, #7)","Lewis, C.S.",4.01,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370692085l/317520._SY75_.jpg,1005037
+The Clan of the Cave Bear,"Auel, Jean M.",4.09,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1172871833l/226722._SY75_.jpg,1005037
+"The Sandman, Vol. 1: Preludes & Nocturnes","Gaiman, Neil",4.25,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358923334l/298317._SY75_.jpg,1005037
+"The Magicians (The Magicians, #1)","Grossman, Lev",3.53,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1313772941l/6101718._SY75_.jpg,1005037
+The Velveteen Rabbit,"Williams Bianco, Margery",4.3,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347748913l/144974._SX50_.jpg,1005037
+The Andromeda Strain,"Crichton, Michael",3.91,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1284319075l/85432._SY75_.jpg,1005037
+"Wizard's First Rule (Sword of Truth, #1)","Goodkind, Terry",4.12,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524714039l/618241._SY75_.jpg,1005037
+The Tale of Peter Rabbit,"Potter, Beatrix",4.21,5,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485118382l/19321._SX50_.jpg,1005037
+Are You My Mother?,"Eastman, P.D.",4.21,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333578439l/899602._SX50_.jpg,1005037
+"Life, the Universe and Everything (The Hitchhiker's Guide to the Galaxy, #3)","Adams, Douglas",4.18,4,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1556894889l/76614._SY75_.jpg,1005037
+Batman: The Killing Joke,"Moore, Alan",4.37,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346331835l/96358._SX50_.jpg,1005037
+From the Mixed-Up Files of Mrs. Basil E. Frankweiler,"Konigsburg, E.L.",4.15,0,https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476925397l/685447._SX50_.jpg,1005037
