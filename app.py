@@ -3,7 +3,8 @@ import sqlite3
 import pandas as pd
 from pathlib import Path
 import os
-
+from src.models.make_user_df import make_df 
+from src.models.make_predictions import predict_5
 
 # ------------- SETTINGS ---------------
 page_title = 'Book Recommendations'
@@ -43,9 +44,9 @@ X_path = os.path.abspath(
         )
 
 def gather_books(conn):
-    ''' Return a DataFrame of the Books table
+    ''' (SQLite Connection) -> DataFrame
+    Return a DataFrame of the Books table
     '''
-    cur = conn.cursor()
     query = 'SELECT * FROM Books'
     books_df = pd.read_sql_query(query, conn)
     return books_df
@@ -63,7 +64,31 @@ def find_book_ids(book_options, books_df):
         book_ids.append(book_id)
         
     return book_ids
-    
+
+
+def make_recommendations(book_ids, X_path):
+    '''(List) -> List
+    Returns a list of book recommendations from a list of liked books.
+    '''
+    with st.spinner('Calculating...'):
+        user_df = make_df(book_ids)
+
+        recs_df = predict_5(user_df, X_path)
+
+    return recs_df
+
+def render_books(conn, output):
+    ''' (SQLite connection, list) -> DataFrame
+    Return a DataFrame of recommended books.
+    '''
+    books_df = pd.DataFrame()
+    for book in output:
+        book_df = pd.DataFrame()
+        query = f'SELECT book_id, title, author, cover_url FROM BOOKS WHERE book_id = {book}'
+        book_df = pd.read_sql_query(query, conn)
+        books_df = pd.concat([books_df, book_df])
+        
+    return books_df
 # -----------------------------------------
 
 st.set_page_config(page_title = page_title, page_icon = page_icon, layout = layout)
@@ -85,6 +110,20 @@ book_options = st.multiselect(label = label, options = book_options, placeholder
 book_ids = find_book_ids(book_options, books_df)
 
 st.write(book_ids)
+
+if 'predicted' not in st.session_state:
+    output = tuple()
+    st.session_state.predicted = {}
+
+if st.button('Recommend!'):
+    recs = make_recommendations(book_ids, X_path)
+    input = str(tuple(book_ids))
+    output = tuple(recs)
+    st.session_state.predicted[input] = output
+    st.write(st.session_state.predicted[input])
+    books_df = render_books(conn, output)
+    st.write(books_df)
+        
 
 
 
