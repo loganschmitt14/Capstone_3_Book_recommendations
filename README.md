@@ -1,7 +1,9 @@
 Capstone 3: Book Recommendation System
 ==============================
 
-Building a book recommendation system in Python
+Building a book recommendation system in Python: 
+
+https://loganbookrecommender.streamlit.app/
 
 Project Organization
 ------------
