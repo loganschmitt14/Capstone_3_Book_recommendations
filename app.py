@@ -143,7 +143,8 @@ with row_1[1]:
 
 
 st.write('\n \n')
-            
+
+
 if st.session_state.predicted == True:
     preds_df = preds_df.reset_index(drop=True)
 
@@ -155,15 +156,12 @@ if st.session_state.predicted == True:
             col = row1[index] if index < 3 else row2[index - 3]
             with col:
                 book_url = f"https://www.goodreads.com/book/show/{book['goodreads_id']}"
-                # Creating a Markdown string with the image as a clickable link
-                markdown_link = f"<a href='{book_url}' target='_blank'><img src='{book['cover_url']}' alt='{book['title']}' width='150'></a>"
+                # Displaying the book cover image
+                st.image(book['cover_url'], width=150)
+
+                # Creating a Markdown string for the title and author as clickable links
+                markdown_link = f"[{book['title']} by {book['author']}](book_url)"
                 st.markdown(markdown_link, unsafe_allow_html=True)
-                st.write(f"{book['title']} by {book['author']}")
-
-
-
-
-
 
 
  
