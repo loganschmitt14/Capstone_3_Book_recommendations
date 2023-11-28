@@ -61,5 +61,6 @@ The project is deployed on Streamlit and links each recommendation to Goodreads.
 Planned modifications include:
 * Better error handling and exceptions
 * Filtering for series so the model doesn't recommend books from a series the user is already familiar with (and doesn't recommend book #6, for example, instead of book #1)
+* Beautifying the page
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
