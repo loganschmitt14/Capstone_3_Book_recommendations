@@ -94,3 +94,6 @@ config.ini
 # Chrome driver and application files
 chromedriver
 chrome_for_testing
+
+# Environment for streamlit
+environment.yml
