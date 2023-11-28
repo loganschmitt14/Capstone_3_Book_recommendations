@@ -160,7 +160,7 @@ if st.session_state.predicted == True:
                 st.image(book['cover_url'], width=150)
 
                 # Creating a Markdown string for the title and author as clickable links
-                markdown_link = f"[{book['title']} by {book['author']}](book_url)"
+                markdown_link = f"[{book['title']} by {book['author']}]({book_url})"
                 st.markdown(markdown_link, unsafe_allow_html=True)
 
 
