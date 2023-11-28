@@ -43,7 +43,7 @@ def predict_5(user_df, X_path):
     
     predictions = best_SVD.test(testset)
     
-    user_id = 14
+    user_id = 42815143
     
     user_predictions = [pred for pred in predictions if str(pred.uid) == str(user_id)]
     
