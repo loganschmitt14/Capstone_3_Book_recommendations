@@ -1,0 +1,13 @@
+model: Singular Value Decomposition
+
+hyperparameters:
+	n_factors = 10
+	n_epochs = 20
+	lr_all = 0.005
+	reg_all = 0.02
+	random_state = 14
+
+features: ~6 million rows of book reviews consisting of
+	book_id: integer
+	user_id: integer
+	rating: integer
