@@ -3,6 +3,9 @@ import sqlite3
 import pandas as pd
 from pathlib import Path
 import os
+import requests
+from streamlit_extras.add_vertical_space import add_vertical_space
+from streamlit_lottie import st_lottie
 import contextlib
 from src.models.make_user_df import make_df 
 from src.models.make_predictions import predict_5
@@ -13,6 +16,15 @@ page_title = 'Book Recommendations'
 page_icon = ':books:'
 
 layout = 'centered'
+
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+
+
 
 
 @contextlib.contextmanager
@@ -104,7 +116,10 @@ def collect_books(database_path, output):
 
 st.set_page_config(page_title = page_title, page_icon = page_icon, layout = layout)
 
-st.title(f'{page_title} {page_icon}')
+lottie_book = load_lottieurl("https://assets4.lottiefiles.com/temp/lf20_aKAfIn.json")
+st_lottie(lottie_book, speed = 1, height = 200, key="initial")
+
+st.title('Goodreads Book Recommendations')
 
 st.session_state['predicted'] = False
 
@@ -114,13 +129,13 @@ books_df = gather_books(goodbooks_path)
 
 book_options = books_df['title'].sort_values(ascending = True).reset_index(drop = True)
 
-row_1 = st.columns([7,3], gap = 'medium')
+row_1 = st.columns([7, 3], gap = 'medium')
 
 with row_1[0]:
 
     label = 'What are your favorite books? Choose at least 5.'
 
-    placeholder = 'Pick some books!'
+    placeholder = 'Start typing...'
 
     book_options = st.multiselect(label = label, options = book_options, placeholder = placeholder)
 
@@ -131,6 +146,7 @@ if st.session_state.predicted == False:
     output = tuple()
 
 with row_1[1]:
+    add_vertical_space(3)
     if len(book_ids) >= 5:
         if st.button('Recommend!'):
             recs = make_recommendations(goodbooks_path, book_ids)
@@ -146,6 +162,7 @@ st.write('\n \n')
 
 
 if st.session_state.predicted == True:
+    st.header('Recommendations:')
     preds_df = preds_df.reset_index(drop=True)
 
     if len(preds_df) >= 6:
